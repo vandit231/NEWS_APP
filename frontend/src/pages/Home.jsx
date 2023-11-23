@@ -7,7 +7,7 @@ import axios from "axios";
 import { Link,useLocation } from 'react-router-dom'
 import Loader from '../components/Loader'
 import { UserContext } from '../context/UserContext'
-
+import Banner from '../components/Banner'
 
 const Home = () => {
   const {search} = useLocation();
@@ -44,7 +44,7 @@ const Home = () => {
   return (
     <>
       <Navbar/>
-       
+      <Banner/>
         <div className='pt-10 px-8 bg-blue-950 md:px-[200px] '>
 
           {loader?<div className="h-[40vh] flex justify-center items-center"><Loader/></div>:!noResults?
