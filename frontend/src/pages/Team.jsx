@@ -8,7 +8,6 @@ import team03 from '../images/vandit.jpg'
 import team04 from '../images/govind.jpg'
 import team05 from '../images/Sanskar.jpg'
 import logo from "../images/Mainlogo.png"
-
 const teamMembers = [
     {
         imgUrl: team01,
@@ -65,9 +64,9 @@ const teamMembers = [
 const Navbar = () => {
   return (
     <nav className="navbar " >
-      <div className="container" style={{width:"90px"}}>
+      <div className="container" style={{width:"305px",marginLeft:"0px"}}>
         {/* <h1>NEWSIY</h1> */}
-        <img src={logo} alt="image1" style={{ width: "90px", height: "90px", paddingTop: "10px", paddingBottom: "10px",marginRight:"0px" ,marginLeft:"25px",}} />
+        <img src={logo} alt="image1" style={{ width: "90px", height: "90px", paddingTop: "10px", paddingBottom: "10px",marginRight:"0px" ,}} />
         <h1 className="text-lg  font-extrabold ">
         
         <a href="/" style={{fontFamily:"manrope" ,marginLeft:"0px"}}>NEWSVERSE</a>
@@ -75,7 +74,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+};    
 
 const Team = () => {
   return (
