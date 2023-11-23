@@ -9,7 +9,7 @@
           <a href="/contactUs">Contact Us</a>  
         </div>
         <div className="flex flex-col text-white text-[40px]">
-          <a href='https://github.com/gaurangbiyani-2021/MERN_ETHNUS_PROJECT'><AiFillGithub/></a>  
+          <a href='https://github.com/vandit231/NEWS_APP/tree/main'><AiFillGithub/></a>  
           
         </div>
         <div className="flex flex-col text-white text-[40px]">
